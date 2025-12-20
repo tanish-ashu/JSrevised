@@ -41,5 +41,12 @@ abcd(function(fn){
     console.log(details);
   });
 
+function instagramParJaaoDataLaao(username, cb) {
+  // logic
+  cb({ id: 1, username: "harsh", age: 27 });
+}
 
+instagramParJaaoDataLaao("harsh", function(data){
+  console.log(data);
+});
  
